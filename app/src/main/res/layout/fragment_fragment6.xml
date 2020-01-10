@@ -1,0 +1,463 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="indian.shaswat.com.familyfolder.Fragment6">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="FAMILY WELFARE DETAILS"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="T. Contraceptive Status"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <!--New Couple -->
+
+        <TextView
+            android:id="@+id/lT_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Methods Practiced by Eligible couple 1"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/lT"
+            app:layout_constraintTop_toBottomOf="@+id/lT" />
+
+        <TextView
+            android:id="@+id/lT_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Condom"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_1" />
+
+        <Spinner
+            android:id="@+id/fT_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_1"
+            app:layout_constraintStart_toEndOf="@+id/lT_1_1"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_1" />
+
+        <TextView
+            android:id="@+id/lT_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="OCP"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_1"
+            app:layout_constraintStart_toEndOf="@+id/fT_1_1"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_1" />
+
+        <Spinner
+            android:id="@+id/fT_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_2"
+            app:layout_constraintStart_toEndOf="@+id/lT_1_2"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_2" />
+
+        <TextView
+            android:id="@+id/lT_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="IUCD"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_1_1" />
+
+        <Spinner
+            android:id="@+id/fT_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_3"
+            app:layout_constraintStart_toEndOf="@+id/lT_1_3"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_3" />
+
+        <TextView
+            android:id="@+id/lT_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Others"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_3"
+            app:layout_constraintStart_toEndOf="@+id/fT_1_3"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_3" />
+
+        <Spinner
+            android:id="@+id/fT_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_4"
+            app:layout_constraintStart_toEndOf="@+id/lT_1_4"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_4" />
+
+        <TextView
+            android:id="@+id/lT_1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Sterlization: 1.Male"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_1_3" />
+
+        <Spinner
+            android:id="@+id/fT_1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_5"
+            app:layout_constraintStart_toEndOf="@+id/lT_1_5"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_5" />
+
+        <TextView
+            android:id="@+id/lT_1_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="2.Female"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_5"
+            app:layout_constraintStart_toEndOf="@+id/fT_1_5"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_5" />
+
+        <Spinner
+            android:id="@+id/fT_1_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_1_6"
+            app:layout_constraintStart_toEndOf="@+id/lT_1_6"
+            app:layout_constraintTop_toTopOf="@+id/lT_1_6" />
+
+        <!--New Couple-->
+
+        <TextView
+            android:id="@+id/lT_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Methods Practiced by Eligible couple 2"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/lT"
+            app:layout_constraintTop_toBottomOf="@+id/lT_1_5" />
+
+        <TextView
+            android:id="@+id/lT_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Condom"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_2" />
+
+        <Spinner
+            android:id="@+id/fT_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_1"
+            app:layout_constraintStart_toEndOf="@+id/lT_2_1"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_1" />
+
+        <TextView
+            android:id="@+id/lT_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="OCP"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_1"
+            app:layout_constraintStart_toEndOf="@+id/fT_2_1"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_1" />
+
+        <Spinner
+            android:id="@+id/fT_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_2"
+            app:layout_constraintStart_toEndOf="@+id/lT_2_2"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_2" />
+
+        <TextView
+            android:id="@+id/lT_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="IUCD"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_2_1" />
+
+        <Spinner
+            android:id="@+id/fT_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_3"
+            app:layout_constraintStart_toEndOf="@+id/lT_2_3"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_3" />
+
+        <TextView
+            android:id="@+id/lT_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Others"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_3"
+            app:layout_constraintStart_toEndOf="@+id/fT_2_3"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_3" />
+
+        <Spinner
+            android:id="@+id/fT_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_4"
+            app:layout_constraintStart_toEndOf="@+id/lT_2_4"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_4" />
+
+        <TextView
+            android:id="@+id/lT_2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Sterlization: 1.Male"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_2_3" />
+
+        <Spinner
+            android:id="@+id/fT_2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_5"
+            app:layout_constraintStart_toEndOf="@+id/lT_2_5"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_5" />
+
+        <TextView
+            android:id="@+id/lT_2_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="2.Female"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_5"
+            app:layout_constraintStart_toEndOf="@+id/fT_2_5"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_5" />
+
+        <Spinner
+            android:id="@+id/fT_2_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_2_6"
+            app:layout_constraintStart_toEndOf="@+id/lT_2_6"
+            app:layout_constraintTop_toTopOf="@+id/lT_2_6" />
+
+
+        <!--New Couple-->
+
+        <TextView
+            android:id="@+id/lT_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Methods Practiced by Eligible couple 3"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/lT"
+            app:layout_constraintTop_toBottomOf="@+id/lT_2_5" />
+
+        <TextView
+            android:id="@+id/lT_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Condom"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_3" />
+
+        <Spinner
+            android:id="@+id/fT_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_1"
+            app:layout_constraintStart_toEndOf="@+id/lT_3_1"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_1" />
+
+        <TextView
+            android:id="@+id/lT_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="OCP"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_1"
+            app:layout_constraintStart_toEndOf="@+id/fT_3_1"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_1" />
+
+        <Spinner
+            android:id="@+id/fT_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_2"
+            app:layout_constraintStart_toEndOf="@+id/lT_3_2"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_2" />
+
+        <TextView
+            android:id="@+id/lT_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="IUCD"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_3_1" />
+
+        <Spinner
+            android:id="@+id/fT_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_3"
+            app:layout_constraintStart_toEndOf="@+id/lT_3_3"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_3" />
+
+        <TextView
+            android:id="@+id/lT_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Others"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_3"
+            app:layout_constraintStart_toEndOf="@+id/fT_3_3"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_3" />
+
+        <Spinner
+            android:id="@+id/fT_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_4"
+            app:layout_constraintStart_toEndOf="@+id/lT_3_4"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_4" />
+
+        <TextView
+            android:id="@+id/lT_3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Sterlization: 1.Male"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/lT_1"
+            app:layout_constraintTop_toBottomOf="@+id/lT_3_3" />
+
+        <Spinner
+            android:id="@+id/fT_3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_5"
+            app:layout_constraintStart_toEndOf="@+id/lT_3_5"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_5" />
+
+        <TextView
+            android:id="@+id/lT_3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="2.Female"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_5"
+            app:layout_constraintStart_toEndOf="@+id/fT_3_5"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_5" />
+
+        <Spinner
+            android:id="@+id/fT_3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lT_3_6"
+            app:layout_constraintStart_toEndOf="@+id/lT_3_6"
+            app:layout_constraintTop_toTopOf="@+id/lT_3_6" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

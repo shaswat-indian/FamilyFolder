@@ -1,0 +1,417 @@
+<resources>
+    <string name="app_name">Family Folder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="arrC">
+        <item>Hindu</item>
+        <item>Christian</item>
+        <item>Muslim</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="arrD">
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="arrE">
+        <item>1. BPL card</item>
+        <item>2. APL card</item>
+        <item>3. None</item>
+    </string-array>
+
+    <string-array name="arrF">
+        <item>Nuclear</item>
+        <item>Joint</item>
+        <item>Three generation</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="arrH_1_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_2_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_3_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_4_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_5_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_6_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_7_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_8_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_9_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_10_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_11_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+    <string-array name="arrH_12_MS">
+        <item>NA</item>
+        <item>1.Married</item>
+        <item>2.Single</item>
+        <item>3.Widow</item>
+        <item>4.Divorced</item>
+    </string-array>
+
+
+
+    <string-array name="arrH_1_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_2_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_3_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_4_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_5_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_6_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_7_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_8_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_9_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_10_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_11_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+    <string-array name="arrH_12_RTH">
+        <item>NA</item>
+        <item>1.Self</item>
+        <item>2.Spouse</item>
+        <item>3.Son</item>
+        <item>4.Daughter</item>
+        <item>5.Daughter in Law</item>
+        <item>6.Son in Law</item>
+        <item>7.Others</item>
+    </string-array>
+
+
+    <string-array name="arrI">
+        <item>Own</item>
+        <item>Rented</item>
+    </string-array>
+
+    <string-array name="arrJ">
+        <item>1.Attached</item>
+        <item>2.Detached</item>
+    </string-array>
+
+    <string-array name="arrL">
+        <item>1.Pucca</item>
+        <item>2.Kaccha</item>
+        <item>3.kaccha pucca</item>
+    </string-array>
+
+    <string-array name="arrM">
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrN">
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrO">
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrP">
+        <item>1.Adequate</item>
+        <item>2.Not adequate</item>
+    </string-array>
+
+    <string-array name="arrR">
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_1_1">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_1_2">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_1_3">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_1_4">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_1_5">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_1_6">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_2_1">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+
+    <string-array name="arrT_2_2">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_2_3">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_2_4">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_2_5">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_2_6">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_3_1">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_3_2">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_3_3">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_3_4">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_3_5">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+    <string-array name="arrT_3_6">
+        <item>NA</item>
+        <item>1.Yes</item>
+        <item>2.No</item>
+    </string-array>
+
+
+</resources>

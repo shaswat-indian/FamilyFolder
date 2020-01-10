@@ -1,0 +1,330 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="indian.shaswat.com.familyfolder.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lFolderNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Folder No: "
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/fFolderNo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lFolderNo"
+            app:layout_constraintStart_toEndOf="@+id/lFolderNo"
+            app:layout_constraintTop_toTopOf="@+id/lFolderNo" />
+
+        <TextView
+            android:id="@+id/lA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="A. Name of the head of the family:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lFolderNo"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/fA"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_style"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lA"
+            app:layout_constraintStart_toEndOf="@+id/lA"
+            app:layout_constraintTop_toTopOf="@+id/lA" />
+
+        <TextView
+            android:id="@+id/lB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="B. Address:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lA"
+            app:layout_constraintTop_toBottomOf="@+id/lA" />
+
+        <TextView
+            android:id="@+id/lB_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="House No:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lB"
+            app:layout_constraintTop_toBottomOf="@+id/lB" />
+
+        <EditText
+            android:id="@+id/fB_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/spinner_style"
+            android:hint="House No."
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lB_1"
+            app:layout_constraintStart_toEndOf="@+id/lB_1"
+            app:layout_constraintTop_toTopOf="@+id/lB_1" />
+
+        <TextView
+            android:id="@+id/lB_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Street:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lB_1"
+            app:layout_constraintTop_toBottomOf="@+id/lB_1" />
+
+        <EditText
+            android:id="@+id/fB_2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@android:color/darker_gray"
+            android:enabled="false"
+            android:hint="Street"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lB_2"
+            app:layout_constraintStart_toEndOf="@+id/lB_2"
+            app:layout_constraintTop_toTopOf="@+id/lB_2" />
+
+        <TextView
+            android:id="@+id/lB_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Village:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lB_2"
+            app:layout_constraintTop_toBottomOf="@+id/lB_2" />
+
+        <EditText
+            android:id="@+id/fB_3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/spinner_style"
+            android:hint="Village"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lB_3"
+            app:layout_constraintStart_toEndOf="@+id/lB_3"
+            app:layout_constraintTop_toTopOf="@+id/lB_3" />
+
+        <TextView
+            android:id="@+id/lB_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pincode:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lB_3"
+            app:layout_constraintTop_toBottomOf="@+id/lB_3" />
+
+        <EditText
+            android:id="@+id/fB_4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/spinner_style"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lB_4"
+            app:layout_constraintStart_toEndOf="@+id/lB_4"
+            app:layout_constraintTop_toTopOf="@+id/lB_4" />
+
+        <TextView
+            android:id="@+id/lC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="C. Religion:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lB"
+            app:layout_constraintTop_toBottomOf="@+id/lB_4" />
+
+        <Spinner
+            android:id="@+id/fC"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lC"
+            app:layout_constraintStart_toEndOf="@+id/lC"
+            app:layout_constraintTop_toTopOf="@+id/lC" />
+
+        <TextView
+            android:id="@+id/lD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="D. Caste:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lC"
+            app:layout_constraintTop_toBottomOf="@+id/lC" />
+
+        <Spinner
+            android:id="@+id/fD"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lD"
+            app:layout_constraintStart_toEndOf="@+id/lD"
+            app:layout_constraintTop_toTopOf="@+id/lD" />
+
+        <TextView
+            android:id="@+id/lE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="E. Does the family possess:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lD"
+            app:layout_constraintTop_toBottomOf="@+id/lD" />
+
+        <Spinner
+            android:id="@+id/fE"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lE"
+            app:layout_constraintStart_toEndOf="@+id/lE"
+            app:layout_constraintTop_toTopOf="@+id/lE" />
+
+        <TextView
+            android:id="@+id/lF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="F. Type of Family:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lE"
+            app:layout_constraintTop_toBottomOf="@+id/lE" />
+
+        <Spinner
+            android:id="@+id/fF"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lF"
+            app:layout_constraintStart_toEndOf="@+id/lF"
+            app:layout_constraintTop_toTopOf="@+id/lF" />
+
+        <TextView
+            android:id="@+id/lG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="G. Socio Economic Status:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lF"
+            app:layout_constraintTop_toBottomOf="@+id/lF" />
+
+        <EditText
+            android:id="@+id/fG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_style"
+            android:hint="Status"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lG"
+            app:layout_constraintStart_toEndOf="@+id/lG"
+            app:layout_constraintTop_toTopOf="@+id/lG" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SOCIO DEMOGRAPHIC DETAILS"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/lFolderNo"
+            app:layout_constraintTop_toBottomOf="@+id/lFolderNo" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/lB"
+            app:layout_constraintStart_toEndOf="@+id/lB"
+            app:layout_constraintTop_toTopOf="@+id/lB">
+
+            <RadioButton
+                android:id="@+id/fRural"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:checked="true"
+                android:text="Rural" />
+
+            <RadioButton
+                android:id="@+id/fUrban"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="Urban" />
+
+
+        </RadioGroup>
+
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

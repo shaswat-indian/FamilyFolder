@@ -1,0 +1,270 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="indian.shaswat.com.familyfolder.Fragment5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="ENVIRONMENTAL DETAILS"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="I. "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Spinner
+            android:id="@+id/fI"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lI"
+            app:layout_constraintStart_toEndOf="@+id/lI"
+            app:layout_constraintTop_toTopOf="@+id/lI" />
+
+        <TextView
+            android:id="@+id/lJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="J. "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lI"
+            app:layout_constraintTop_toBottomOf="@+id/lI" />
+
+        <Spinner
+            android:id="@+id/fJ"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lJ"
+            app:layout_constraintStart_toEndOf="@+id/lJ"
+            app:layout_constraintTop_toTopOf="@+id/lJ" />
+
+        <TextView
+            android:id="@+id/lK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="K. Number of  living rooms :"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lJ"
+            app:layout_constraintTop_toBottomOf="@+id/lJ" />
+
+        <EditText
+            android:id="@+id/fK"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lK"
+            app:layout_constraintStart_toEndOf="@+id/lK"
+            app:layout_constraintTop_toTopOf="@+id/lK" />
+
+        <TextView
+            android:id="@+id/lL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="L. House structure:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lK"
+            app:layout_constraintTop_toBottomOf="@+id/lK" />
+
+        <Spinner
+            android:id="@+id/fL"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lL"
+            app:layout_constraintStart_toEndOf="@+id/lL"
+            app:layout_constraintTop_toTopOf="@+id/lL" />
+
+        <TextView
+            android:id="@+id/lM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="M. Separate kitchen:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lL"
+            app:layout_constraintTop_toBottomOf="@+id/lL" />
+
+        <Spinner
+            android:id="@+id/fM"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lM"
+            app:layout_constraintStart_toEndOf="@+id/lM"
+            app:layout_constraintTop_toTopOf="@+id/lM" />
+
+        <TextView
+            android:id="@+id/lN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="N. Smoke outlet in the kitchen:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lM"
+            app:layout_constraintTop_toBottomOf="@+id/lM" />
+
+        <Spinner
+            android:id="@+id/fN"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lN"
+            app:layout_constraintStart_toEndOf="@+id/lN"
+            app:layout_constraintTop_toTopOf="@+id/lN" />
+
+        <TextView
+            android:id="@+id/lO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="O. Overcrowding:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lN"
+            app:layout_constraintTop_toBottomOf="@+id/lN" />
+
+        <Spinner
+            android:id="@+id/fO"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lO"
+            app:layout_constraintStart_toEndOf="@+id/lO"
+            app:layout_constraintTop_toTopOf="@+id/lO" />
+
+        <TextView
+            android:id="@+id/lP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="P. Ventilation and lighting:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lO"
+            app:layout_constraintTop_toBottomOf="@+id/lO" />
+
+        <Spinner
+            android:id="@+id/fP"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lP"
+            app:layout_constraintStart_toEndOf="@+id/lP"
+            app:layout_constraintTop_toTopOf="@+id/lP" />
+
+        <TextView
+            android:id="@+id/lQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Q. Water supply:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lP"
+            app:layout_constraintTop_toBottomOf="@+id/lP" />
+
+        <EditText
+            android:id="@+id/fQ"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lQ"
+            app:layout_constraintStart_toEndOf="@+id/lQ"
+            app:layout_constraintTop_toTopOf="@+id/lQ" />
+
+        <TextView
+            android:id="@+id/lR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="R. Waste segregation"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lQ"
+            app:layout_constraintTop_toBottomOf="@+id/lQ" />
+
+        <Spinner
+            android:id="@+id/fR"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            app:layout_constraintBottom_toBottomOf="@+id/lR"
+            app:layout_constraintStart_toEndOf="@+id/lR"
+            app:layout_constraintTop_toTopOf="@+id/lR" />
+
+        <TextView
+            android:id="@+id/lS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="S. Any other observations?"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lR"
+            app:layout_constraintTop_toBottomOf="@+id/lR" />
+
+        <EditText
+            android:id="@+id/fS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lS"
+            app:layout_constraintStart_toEndOf="@+id/lS"
+            app:layout_constraintTop_toTopOf="@+id/lS" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

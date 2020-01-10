@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "853120552730",
+    "firebase_url": "https://family-folder.firebaseio.com",
+    "project_id": "family-folder",
+    "storage_bucket": "family-folder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853120552730:android:4460e7d33cb3c0c8",
+        "android_client_info": {
+          "package_name": "indian.shaswat.com.familyfolder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853120552730-ctvn42dhp3avvr7bamcdjslkhv8qmtg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTbY1_cgff6-XB9sLdJ8QU-PGZO4wm6Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

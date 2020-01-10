@@ -1,0 +1,626 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="indian.shaswat.com.familyfolder.Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- New Member -->
+
+        <TextView
+            android:id="@+id/lH_7_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:text="7. Name "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/fH_7_Name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_Name"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_Name"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_Name" />
+
+        <TextView
+            android:id="@+id/lH_7_Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Age"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_7_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_7_Name" />
+
+        <EditText
+            android:id="@+id/fH_7_Age"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_Age"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_Age"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_Age" />
+
+        <TextView
+            android:id="@+id/lH_7_RTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Relation to Head"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_Age"
+            app:layout_constraintStart_toEndOf="@+id/fH_7_Age"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_Age" />
+
+        <Spinner
+            android:id="@+id/fH_7_RTH"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_RTH"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_RTH"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_RTH" />
+
+        <TextView
+            android:id="@+id/lH_7_MS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Marital Status"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_7_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_7_Age" />
+
+        <Spinner
+            android:id="@+id/fH_7_MS"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_MS"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_MS"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_MS" />
+
+        <TextView
+            android:id="@+id/lH_7_Edu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Education"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_MS"
+            app:layout_constraintStart_toEndOf="@+id/fH_7_MS"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_MS" />
+
+        <EditText
+            android:id="@+id/fH_7_Edu"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_Edu"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_Edu"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_Edu" />
+
+        <TextView
+            android:id="@+id/lH_7_Occ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Occupation"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_7_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_7_MS" />
+
+        <EditText
+            android:id="@+id/fH_7_Occ"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_Occ"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_Occ"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_Occ" />
+
+        <TextView
+            android:id="@+id/lH_7_Inc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Income"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_Occ"
+            app:layout_constraintStart_toEndOf="@+id/fH_7_Occ"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_Occ" />
+
+        <EditText
+            android:id="@+id/fH_7_Inc"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_Inc"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_Inc"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_Inc" />
+
+        <TextView
+            android:id="@+id/lH_7_HS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Health Status"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_7_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_7_Occ" />
+
+        <EditText
+            android:id="@+id/fH_7_HS"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_7_HS"
+            app:layout_constraintStart_toEndOf="@+id/lH_7_HS"
+            app:layout_constraintTop_toTopOf="@+id/lH_7_HS" />
+
+
+
+        <!-- New Member -->
+
+        <TextView
+            android:id="@+id/lH_8_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="8. Name "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_7_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_7_HS" />
+
+        <EditText
+            android:id="@+id/fH_8_Name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_Name"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_Name"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_Name" />
+
+        <TextView
+            android:id="@+id/lH_8_Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Age"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_8_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_8_Name" />
+
+        <EditText
+            android:id="@+id/fH_8_Age"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_Age"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_Age"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_Age" />
+
+        <TextView
+            android:id="@+id/lH_8_RTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Relation to Head"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_Age"
+            app:layout_constraintStart_toEndOf="@+id/fH_8_Age"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_Age" />
+
+        <Spinner
+            android:id="@+id/fH_8_RTH"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_RTH"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_RTH"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_RTH" />
+
+        <TextView
+            android:id="@+id/lH_8_MS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Marital Status"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_8_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_8_Age" />
+
+        <Spinner
+            android:id="@+id/fH_8_MS"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_MS"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_MS"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_MS" />
+
+        <TextView
+            android:id="@+id/lH_8_Edu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Education"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_MS"
+            app:layout_constraintStart_toEndOf="@+id/fH_8_MS"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_MS" />
+
+        <EditText
+            android:id="@+id/fH_8_Edu"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_Edu"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_Edu"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_Edu" />
+
+        <TextView
+            android:id="@+id/lH_8_Occ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Occupation"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_8_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_8_MS" />
+
+        <EditText
+            android:id="@+id/fH_8_Occ"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_Occ"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_Occ"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_Occ" />
+
+        <TextView
+            android:id="@+id/lH_8_Inc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Income"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_Occ"
+            app:layout_constraintStart_toEndOf="@+id/fH_8_Occ"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_Occ" />
+
+        <EditText
+            android:id="@+id/fH_8_Inc"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_Inc"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_Inc"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_Inc" />
+
+        <TextView
+            android:id="@+id/lH_8_HS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Health Status"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_8_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_8_Occ" />
+
+        <EditText
+            android:id="@+id/fH_8_HS"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_8_HS"
+            app:layout_constraintStart_toEndOf="@+id/lH_8_HS"
+            app:layout_constraintTop_toTopOf="@+id/lH_8_HS" />
+
+
+
+        <!-- New Member -->
+
+        <TextView
+            android:id="@+id/lH_9_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="9. Name "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_7_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_8_HS" />
+
+        <EditText
+            android:id="@+id/fH_9_Name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_Name"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_Name"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_Name" />
+
+        <TextView
+            android:id="@+id/lH_9_Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Age"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_9_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_9_Name" />
+
+        <EditText
+            android:id="@+id/fH_9_Age"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_Age"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_Age"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_Age" />
+
+        <TextView
+            android:id="@+id/lH_9_RTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Relation to Head"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_Age"
+            app:layout_constraintStart_toEndOf="@+id/fH_9_Age"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_Age" />
+
+        <Spinner
+            android:id="@+id/fH_9_RTH"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_RTH"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_RTH"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_RTH" />
+
+        <TextView
+            android:id="@+id/lH_9_MS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Marital Status"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_9_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_9_Age" />
+
+        <Spinner
+            android:id="@+id/fH_9_MS"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_MS"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_MS"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_MS" />
+
+        <TextView
+            android:id="@+id/lH_9_Edu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Education"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_MS"
+            app:layout_constraintStart_toEndOf="@+id/fH_9_MS"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_MS" />
+
+        <EditText
+            android:id="@+id/fH_9_Edu"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_Edu"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_Edu"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_Edu" />
+
+        <TextView
+            android:id="@+id/lH_9_Occ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Occupation"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_9_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_9_MS" />
+
+        <EditText
+            android:id="@+id/fH_9_Occ"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_Occ"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_Occ"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_Occ" />
+
+        <TextView
+            android:id="@+id/lH_9_Inc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Income"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_Occ"
+            app:layout_constraintStart_toEndOf="@+id/fH_9_Occ"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_Occ" />
+
+        <EditText
+            android:id="@+id/fH_9_Inc"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_Inc"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_Inc"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_Inc" />
+
+        <TextView
+            android:id="@+id/lH_9_HS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Health Status"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/lH_9_Name"
+            app:layout_constraintTop_toBottomOf="@+id/lH_9_Occ" />
+
+        <EditText
+            android:id="@+id/fH_9_HS"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/spinner_style"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lH_9_HS"
+            app:layout_constraintStart_toEndOf="@+id/lH_9_HS"
+            app:layout_constraintTop_toTopOf="@+id/lH_9_HS" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>
